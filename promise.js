@@ -1,5 +1,7 @@
 async function getProcessedData(url) {
-  return downloadData(url) // returns a promise
+  let promise = new Promise(url)
+
+  await downloadData(url) //Espera y retorna a promise
     .catch(e => {
       let dow = await  downloadFallbackData(url)
       return dow  // returns a promise
