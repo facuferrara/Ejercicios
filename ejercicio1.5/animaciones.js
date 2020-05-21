@@ -1,4 +1,4 @@
-cambiarDimensionFuente(8)
+
 function cambiarDimensionFuente(size) {
   return function() { 
     document.body.style.fontSize = size + 'px';
