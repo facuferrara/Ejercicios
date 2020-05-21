@@ -5,10 +5,12 @@
 
 
 function cambiarDimensionFuente(size) {
-  return function() { 
-    document.body.style.fontSize = size + 'px';
+  document.getElementById('fuente-8').onclick = document.body.style.fontSize = size + 'px';
+    return document.body.style.fontSize = size + '8'
+  // return function() { 
+  //   document.body.style.fontSize = size + 'px';
   };
-}
+// }
 
 
 function setClicks(){
