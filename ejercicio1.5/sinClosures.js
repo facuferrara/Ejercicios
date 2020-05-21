@@ -11,9 +11,7 @@ function cambiarDimensionFuente(size) { // crea
   };
   // }
   
-  function 2doproce(){
-    
-  }
+  
   
   function setClicks(){
     // document.getElementById('fuente-8').onclick = size8(); 
